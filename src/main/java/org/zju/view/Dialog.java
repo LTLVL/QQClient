@@ -4,9 +4,9 @@ package org.zju.view;
 import javax.swing.*;
 import java.awt.*;
 
-public class LoginFailDialog extends JDialog{
+public class Dialog extends JDialog{
 
-    public LoginFailDialog(String msg){
+    public Dialog(String msg){
         this.setVisible(true);
         this.setBackground(Color.BLACK);
         this.setBounds(50, 50, 100, 100);

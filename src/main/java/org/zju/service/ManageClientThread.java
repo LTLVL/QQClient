@@ -1,9 +1,6 @@
-package Service;
-
-import common.Message;
+package org.zju.service;
 
 import java.util.HashMap;
-import java.util.concurrent.ConcurrentHashMap;
 
 public class ManageClientThread {
     private static HashMap<String,ClientConnect> hm = new HashMap<>();
